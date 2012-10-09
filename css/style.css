@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('font/BEBAS___-webfont.eot');
+    src: url('font/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BEBAS___-webfont.woff') format('woff'),
+         url('font/BEBAS___-webfont.ttf') format('truetype'),
+         url('font/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{
+ font-family: 'BebasRegular';
+	width:100%;
+	height:100%;
+}
+
+.navigation{
+	position:fixed;
+	z-index:1;
+	top:20px;
+}
+.navigation li{
+	color:#333333;
+	display:block;
+	padding: 0 10px;
+	line-height:30px;
+	margin-bottom:2px;
+	font-weight:bold;
+	-webkit-transition: all .2s ease-in-out;
+	border-bottom:1px solid black;
+	text-align:left;
+	width:53px;
+}
+.navigation li:hover,.active{
+	font-size:25px;
+	cursor:pointer;
+	width:100px!important;
+}
+.envatologo{
+position:fixed;
+top:1%;
+left:50%;
+width:304px;
+margin-top:-41px;
+margin-left:-223px;
+z-index:1;
+
+}
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.wrapper{
+	width:80%;
+	height:400px;
+	 margin: 0 auto 0 12%;
+	position:relative;
+
+
+}
+
+.wrapper1{
+	width:80%;
+	height:400px;
+	 margin: 0 auto 0 12%;
+	position:relative;
+
+
+}
+.slideno{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:100px;
+	font-weight:bold;
+	color:rgba(255,255,255,0.3);
+}
+.button{
+	display:block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	background-color:#333333;
+	background-image:url(../images/arrow.png);
+}
+.button:hover{
+	background-color:#494949;
+	cursor:pointer;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1{
+	_background-color:#5c9900;
+	background:url("../images/2.png");
+	
+}
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2{
+	_background-color:#005c99;
+	background:url("../images/3.png");
+	
+}
+#slide2 img:first-child{
+	position:absolute;
+top: 700px;
+left: -150px;
+}
+#slide2 img:nth-child(2){
+	position:absolute;
+	top:300px;
+	left:100px;
+}
+#slide2 img:nth-child(3){
+	position:absolute;
+	top:600px;
+	left:300px;
+}
+#slide2 img:nth-child(4){
+	position:absolute;
+	top:400px;
+	left:300px;
+}
+#slide2 img:nth-child(5){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(6){
+	position:absolute;
+	top:600px;
+	right:300px;
+}
+#slide2 img:nth-child(7){
+	position:absolute;
+	top:400px;
+	right:100px;
+}
+#slide2 img:nth-child(8){
+	position:absolute;
+	top:100px;
+	right:300px;
+}
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3{
+	background:url("../images/6.png");
+}
+#slide3 img:first-child{
+	position:absolute;
+top: 700px;
+left: 300px;
+}
+#slide3 img:nth-child(2){
+	position:absolute;
+	top:100px;
+	left:100px;
+}
+#slide3 img:nth-child(3){
+	position:absolute;
+	top:150px;
+	left:300px;
+}
+#slide3 img:nth-child(4){
+	position:absolute;
+	top:450px;
+	left:300px;
+}
+#slide3 img:nth-child(5){
+	position:absolute;
+	top:200px;
+	right:300px;
+}
+#slide3 img:nth-child(6){
+	position:absolute;
+	top:100px;
+	right:300px;
+}
+/******************************
+ SLIDE 4 
+*******************************/
+
+#slide4{
+
+	background-image:url(../images/8.png);
+	 
+	height: 140%;
+}
+#slide4 .parallaxbg{
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+
+
+#slide5{
+	background-image:url(../images/bg.jpg);
+	_-webkit-background-size: cover;
+	_-moz-background-size: cover;
+	_-o-background-size: cover;
+	_background-size: cover;
+}
+#slide5 .parallaxbg{
+	position:absolute;
+	right:40px;
+	top:40px;
+	font-size:28px;
+	color:rgba(51,51,51,0.3);
+}
+
+
+#wrap {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 940px;
+
+}
+ 
+
+ .wrapper1 img{
+  
+    height: 66%;
+    margin-bottom: -44px;
+    margin-left: 17px;
+    margin-top: 60px;
+    width: 21%;
+    -moz-box-shadow:    3px 3px 5px 6px black;
+  -webkit-box-shadow: 3px 3px 5px 6px black;
+  box-shadow:         3px 3px 5px 6px black;
+ }
+
+.hover_caption {
+   /* If you can count of CSS3 support: */
+   background-color: rgba(0, 0, 0, 0.7);
+
+   /* Or use a transparent image if you need to support bad browsers: */
+   /* background-image: url(hover_caption_bg.png); */
+
+   /* NOTE: If you're img elements have paddings or margins you'll need to
+   match them here to get things lined up properly. */
+}
+
+
+.thumb {
+   display: block;
+    float: left;
+    height: 81%;
+    margin-bottom: -28px;
+    margin-right: 20px;
+    position: relative;
+    width: 21%;
+}
+ 
+    .thumb-wrapper {
+        display:block;
+        width:100%;
+        height:100%;
+    }
+ 
+    .thumb img {
+        width:100%;
+        height:100%;
+        position:absolute;
+        display:block;   
+          -moz-box-shadow: 11px 4px 15px 12px black;
+  -webkit-box-shadow: 11px 4px 15px 12px black;
+ box-shadow: 11px 4px 15px 12px black;   
+                 
+    }
+     
+    .thumb .thumb-detail {
+ background: white;
+    display: block;
+    height: 82%;
+    margin-left: 15px;
+    margin-top: -65%;
+    opacity: 0.8;
+    position: absolute;
+    width: 95%;  
+    }
+
+
+
+    .thumb .thumb-detail a{color:black;}
+         
+ 
+/*
+* Without CSS3 Scroll Up Effect
+*/
+.thumb.scroll {
+    overflow: hidden;
+}  
+ 
+    .thumb.scroll .thumb-detail {
+        bottom:-280px;
+    }
+
+
+
+ .fieldContainer{
+ 	 height: 405px
+ }
+
+#carbonForm label{
+	font-size: 22px;
+	color:rgba(185, 185, 185, 0.6);
+	margin-left: -40px;
+}
+
+ #carbonForm{
+	/* The main form container */
+	background-color:#1C1C1C;
+	border:1px solid #080808;
+	margin:20px auto;
+	padding:20px;
+	width:700px;
+	float: left;
+	margin-left: 32%;
+
+	-moz-box-shadow:0 0 1px #444 inset;
+	-webkit-box-shadow:0 0 1px #444 inset;
+	box-shadow:0 0 1px #444 inset;
+}
+
+.fieldContainer{
+	/* The light rounded section, which contans the fields */
+	background-color:#1E1E1E;
+	border:1px solid #0E0E0E;
+	padding:30px 10px;
+
+	/* CSS3 box shadow, used as an inner glow */
+	-moz-box-shadow:0 0 20px #292929 inset;
+	-webkit-box-shadow:0 0 20px #292929 inset;
+	box-shadow:0 0 20px #292929 inset;
+}
+
+#carbonForm,.fieldContainer,.errorTip{
+	/* Rounding the divs at once */
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+}
+
+.formRow{
+	height:35px;
+	padding:31px;
+	position:relative;
+}
+
+.label{
+	float: left;
+
+padding: 0 20px 22px 32px;
+text-align: right;
+width: 70px;
+}
+
+label{
+	font-family:Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	letter-spacing:1px;
+	line-height:35px; /* Neat line height trick */
+}
+
+.field{
+	float:left;
+}
+
+.field input{
+	width:138%;
+	/* The text boxes */
+	border:1px solid white;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:22px;
+	padding:4px 5px;
+	background:url("images/box_bg.png") repeat-x scroll left top #FFFFFF;
+	outline:none;
+}
+
+#submit{
+	/* The submit button */
+	border:1px solid #f4f4f4;
+	cursor:pointer;
+	height:40px;
+	 color:white;
+	text-transform:uppercase;
+	width:110px;
+	margin-top:15px;
+	float:right;
+
+	background: #9C9C9C;
+
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
+
+#submit.active{
+	/* Marking the submit button as active adds the preloader gif as background */
+	background-image:url("images/preloader.gif");
+}
+
+input:hover,
+input:focus{
+	/* CSS3 glow effect */
+	-moz-box-shadow:0 0 8px lightblue;
+	-webkit-box-shadow:0 0 8px lightblue;
+	box-shadow:0 0 8px lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
